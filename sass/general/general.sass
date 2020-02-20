@@ -1,0 +1,42 @@
+/***************************** general style *****************************/
+*
+	&:focus, &:active
+		outline: none !important
+
+html
+	overflow: hidden
+	font-size: 12px
+
+body
+	font:
+		family: $fontSansProSemiBold
+		size: 1em
+		weight: 400
+	color: $fontColorMain
+	line-height: 1
+	//min-width: $bodyMinWidth
+	margin: 0
+	padding: 0
+	height: 100vh	
+	background-color: #FFFFFF
+	letter-spacing: 0.02em
+	background-color: blue
+
+a
+	text-decoration: none
+
+.container
+	position: relative
+	margin-left: auto
+	margin-right: auto
+	padding-right: 15px
+	padding-left: 15px
+	max-width: 100%
+	width: 1200px	 
+
+.row
+	margin-left: -15px
+	margin-right: -15px
+	+flexbox
+	+flex-wrap(wrap)
+	+align-items(center)
