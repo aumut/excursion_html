@@ -1,0 +1,16 @@
+/* CLEAR */
+html, body, div, span, object, iframe, img, strong, b, u, i, table, tbody, tfoot, thead, td, th, tr, form, label, legend{margin: 0; padding: 0; border: 0; vertical-align: baseline;background: transparent;}
+input:focus, select:focus, textarea:focus {outline: none;}
+table, td,th,tr {border-collapse: collapse;border-spacing: 0;}
+html, body {width: 100%; height: 100%;}
+input, select, textarea {font-weight: normal;}
+input[type="button"] {cursor: pointer;}
+
+.clear {clear: both; font-size: 0;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+html>body .clearfix{display: block;}
+.clearfix {display: inline-block;}
+
+* html .clearfix {height: 1%;}
+/* END OF CLEAR */
+

@@ -1,0 +1,14 @@
+h1, h2, h3, ul, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	 font-family: 'Arial', sans-serif;
+	 font-size: 13px;
+	 background: #fff;
+	 color: #666;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
