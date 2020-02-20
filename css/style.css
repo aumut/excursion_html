@@ -68,14 +68,9 @@ body {
 a {
   text-decoration: none; }
 
-.container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  max-width: 100%;
-  width: 1200px; }
+.e-container {
+  padding-left: 90px;
+  padding-right: 90px; }
 
 .row {
   margin-left: -15px;
