@@ -78,10 +78,20 @@ h5 {
 h6 {
   font-size: 20pt; }
 
+<<<<<<< HEAD
 /***************************** button style *****************************/
+=======
+.e-container {
+  width: 700px;
+  margin: 20px auto; }
+
+/***************************** button style **************************** */
+>>>>>>> 6753814905d4aefcaf610780540433b1671de6ed
 .e-btn {
   font-family: "SourceSansProSemiBold", sans-serif;
+  background-color: #3ebffa;
   color: #FFFFFF;
+  padding: 11px 5px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -89,8 +99,26 @@ h6 {
 
 .e-btn-gr {
   font-size: 12pt;
-  background-color: #3ebffa;
-  padding: 11px 5px; }
+  background-color: #3ebffa; }
+
+.e-btn-head {
+  width: 135px;
+  text-align: center;
+  font-size: 13pt;
+  padding: 10px 0px; }
+
+.e-btn-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 23px; }
 
 @font-face {
   font-family: "SourceSansProSemiBold";
@@ -101,11 +129,11 @@ h6 {
 /***************************** card style *****************************/
 .e-card {
   margin: 0 auto;
-  width: calc(770px - 36px*2);
+  width: 100%;
   height: calc(363px - 18px*2);
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  border-radius: 40px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
   padding: 18px 36px;
   background-image: url("../upload/sightseeing_tour_of_Odessa_2.jpg");
   background-size: cover;
