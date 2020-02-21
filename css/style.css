@@ -130,6 +130,7 @@ h6 {
   -moz-border-radius: 45px;
   border-radius: 45px;
   padding: 18px 36px;
+  margin-bottom: 55px;
   background-image: url("../upload/sightseeing_tour_of_Odessa_2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,7 +220,7 @@ h6 {
   -moz-justify-content: center;
   justify-content: center; }
   .e-pay__item {
-    margin-right: 20px;
+    margin: 0px 10px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;
@@ -232,16 +233,18 @@ h6 {
     align-items: center; }
   .e-pay__link {
     display: inline-block;
-    width: 60px;
-    height: 60px;
     background-image: url("../images/ic_visa.png");
     background-repeat: no-repeat;
     background-size: contain; }
 
 .ic-mc .e-pay__link {
+  width: 62px;
+  height: 47px;
   background-image: url("../images/ic_mc.png"); }
 
 .ic-lect .e-pay__link {
+  width: 50px;
+  height: 50px;
   background-image: url("../images/ic_lect.png"); }
 
 .ic-viza .e-pay__link {
