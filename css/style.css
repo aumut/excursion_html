@@ -78,15 +78,12 @@ h5 {
 h6 {
   font-size: 20pt; }
 
-<<<<<<< HEAD
 /***************************** button style *****************************/
-=======
 .e-container {
   width: 700px;
   margin: 20px auto; }
 
 /***************************** button style **************************** */
->>>>>>> 6753814905d4aefcaf610780540433b1671de6ed
 .e-btn {
   font-family: "SourceSansProSemiBold", sans-serif;
   background-color: #3ebffa;
