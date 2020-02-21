@@ -64,7 +64,8 @@ body {
   background-color: #FFFFFF;
   letter-spacing: 0.02em;
   background-image: url("./../images/bg.jpg");
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  overflow-y: scroll; }
 
 a {
   text-decoration: none; }
@@ -136,13 +137,15 @@ h6 {
   -moz-border-radius: 45px;
   border-radius: 45px;
   padding: 18px 36px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   background-image: url("../upload/sightseeing_tour_of_Odessa_2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-box-shadow: 7px 7px 21px 0.7px #1b1b1b;
   -moz-box-shadow: 7px 7px 21px 0.7px #1b1b1b;
   box-shadow: 7px 7px 21px 0.7px #1b1b1b; }
+  .e-card:last-child {
+    margin-bottom: 55px; }
   .e-card__title {
     color: #FFFFFF;
     width: 90%;
