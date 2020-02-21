@@ -1,0 +1,27 @@
+.e-pay
+  +flexbox
+  +justify-content(center)
+  &__item
+    margin-right: 20px
+    +flexbox
+    +align-items(center)
+  &__link
+    display: inline-block
+    width: 60px
+    height: 60px
+    background:
+      image: url("../images/ic_visa.png")
+      repeat: no-repeat
+      size: contain
+
+.ic-mc
+  .e-pay__link
+    background-image: url("../images/ic_mc.png")
+.ic-lect
+  .e-pay__link
+    background-image: url("../images/ic_lect.png")
+.ic-viza
+  .e-pay__link
+    width: 75px
+    height: 24px
+    background-image: url("../images/ic_viza.png")
