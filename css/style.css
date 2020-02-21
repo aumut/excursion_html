@@ -80,11 +80,10 @@ h6 {
 
 .e-container {
   max-width: 700px;
-  width: 100%;
   margin: 20px auto; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
     .e-container {
-      min-width: 700px; } }
+      width: 700px; } }
 
 /***************************** button style *****************************/
 .e-btn {
