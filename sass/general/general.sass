@@ -20,14 +20,10 @@ body
 	height: 100vh	
 	background-color: #FFFFFF
 	letter-spacing: 0.02em
-	background-color: blue
 
 a
 	text-decoration: none
 
-.e-container
-	padding-left: 90px
-	padding-right: 90px
 
 .row
 	margin-left: -15px
@@ -35,3 +31,59 @@ a
 	+flexbox
 	+flex-wrap(wrap)
 	+align-items(center)
+
+h4
+	font-size: $fontSize_h4
+h5
+	font-size: $fontSize_h5
+h6
+	font-size: $fontSize_h6
+
+.e-card
+	margin: 0 auto
+	width: calc(770px - 36px*2)
+	height: calc(363px - 18px*2)
+	+border_radius(40px)
+	padding: 18px 36px
+	background:
+		image: url("../upload/sightseeing_tour_of_Odessa_2.jpg")
+		size: cover
+		repeat: no-repeat
+	//+box_shadow(7px 10px 49px 21px)
+	&__title
+		color: #FFFFFF
+		width: 90%
+		font-size: 41pt
+		font-family: $fontSansProSemiBold
+		margin-bottom: 16px
+
+.e-card__content
+	+flexbox
+	+justify-content(space-between)
+	+align-items(flex-end)
+
+.e-card-btn
+	+flexbox
+	+flex-direction(column)
+
+.e-card-tur
+	&__item
+		color: #FFFFFF
+		font-size: 16pt
+		line-height: 2.5
+
+.e-btn
+	font-family: $fontSansProSemiBold
+	color: #FFFFFF
+	+border_radius(20px)
+	border: none
+
+.e-btn-gr
+	font-size: 12pt
+	background-color: $btnGr_bg
+	padding: 11px 5px
+
+.e-card-btn
+	.e-btn-gr
+		margin-bottom: 10px
+

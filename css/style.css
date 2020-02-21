@@ -62,15 +62,10 @@ body {
   padding: 0;
   height: 100vh;
   background-color: #FFFFFF;
-  letter-spacing: 0.02em;
-  background-color: blue; }
+  letter-spacing: 0.02em; }
 
 a {
   text-decoration: none; }
-
-.e-container {
-  padding-left: 90px;
-  padding-right: 90px; }
 
 .row {
   margin-left: -15px;
@@ -90,9 +85,87 @@ a {
   -moz-align-items: center;
   align-items: center; }
 
+h4 {
+  font-size: 30pt; }
+
+h5 {
+  font-size: 24pt; }
+
+h6 {
+  font-size: 20pt; }
+
+.e-card {
+  margin: 0 auto;
+  width: calc(770px - 36px*2);
+  height: calc(363px - 18px*2);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  padding: 18px 36px;
+  background-image: url("../upload/sightseeing_tour_of_Odessa_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .e-card__title {
+    color: #FFFFFF;
+    width: 90%;
+    font-size: 41pt;
+    font-family: "SourceSansProSemiBold", sans-serif;
+    margin-bottom: 16px; }
+
+.e-card__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.e-card-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.e-card-tur__item {
+  color: #FFFFFF;
+  font-size: 16pt;
+  line-height: 2.5; }
+
+.e-btn {
+  font-family: "SourceSansProSemiBold", sans-serif;
+  color: #FFFFFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: none; }
+
+.e-btn-gr {
+  font-size: 12pt;
+  background-color: #3ebffa;
+  padding: 11px 5px; }
+
+.e-card-btn .e-btn-gr {
+  margin-bottom: 10px; }
+
 @font-face {
   font-family: "SourceSansProSemiBold";
-  src: url("../../fonts/SourceSansPro-SemiBold.ttf") format("truetype");
+  src: url("../fonts/SourceSansPro-SemiBold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
