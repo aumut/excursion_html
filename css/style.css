@@ -82,7 +82,7 @@ h6 {
 
 .e-container {
   max-width: 700px;
-  margin: 0px auto; }
+  margin: 0px auto 100px; }
   @media screen and (max-width: 768px) {
     .e-container {
       width: 700px; } }
