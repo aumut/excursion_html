@@ -64,7 +64,9 @@ body {
   background-color: #FFFFFF;
   letter-spacing: 0.02em;
   background-image: url("./../images/bg.jpg");
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  overflow-y: scroll;
+  scroll-behavior: smooth; }
 
 a {
   text-decoration: none; }
@@ -134,7 +136,9 @@ h6 {
   height: 37px;
   max-width: 700px;
   margin-left: calc(-700px / 2);
-  z-index: 9999; }
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.5s; }
 
 .e-content {
   margin-top: calc(37px + 23px + 20px); }
