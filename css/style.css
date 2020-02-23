@@ -95,6 +95,10 @@ h6 {
   -moz-border-radius: 20px;
   border-radius: 20px;
   border: none; }
+  .e-btn:hover {
+    background-color: #00afff; }
+  .e-btn:active {
+    background-color: #0087c4; }
 
 .e-btn-gr {
   font-size: 12pt;
