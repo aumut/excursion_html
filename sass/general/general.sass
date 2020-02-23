@@ -37,7 +37,7 @@ h6
 
 .e-container
 	max-width: 700px
-	margin: 20px auto
+	margin: 0px auto
 	+tablet_down
 		width: 700px
 
@@ -68,4 +68,16 @@ h6
 .e-btn-wrap
 	+flexbox
 	+justify-content(space-between)
-	margin-bottom: 23px
+
+.fixed
+	position: fixed
+	top: $eCont_mt
+	left: 50%
+	width: 100%
+	height: $header_h
+	max-width: 700px
+	margin-left: calc(-700px / 2)
+	z-index: 9999
+
+.e-content
+	margin-top: calc(#{$header_h} + #{$header_mb} + #{$eCont_mt})
