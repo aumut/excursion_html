@@ -36,11 +36,19 @@ h5
 h6
 	font-size: $fontSize_h6
 
+.container
+	+phone-down
+		margin-right: 0
+		margin-left: 0
+	+tablet
+		margin-left: auto
+		margin-right: auto
+
 .e-container
-	max-width: 700px
+	max-width: $eCard_w
 	margin: 0px auto 100px
 	+tablet_down
-		width: 700px
+		width: $eCard_w
 
 /***************************** button style *****************************/
 .e-btn
@@ -80,20 +88,26 @@ h6
 	left: 50%
 	width: 100%
 	height: $header_h
-	max-width: 700px
-	margin-left: calc(-700px / 2)
+	max-width: $eCard_w
+	margin-left: calc(-#{$eCard_w} / 2)
 	z-index: 9999
 	opacity: 1
 	transition: opacity 0.5s
 
 .e-content
 	margin-top: calc(#{$header_h} + #{$header_mb} + #{$eCont_mt})
-	+phone
-		margin-right: 15px
+	+tablet-down
+		margin-right: 30px
 
-.header
-	+phone
+
+.fixed
+	+phone-down
 		left: 0
 		margin-left: 0
 		padding-left: 15px
 		padding-right: 15px
+	+tablet
+		left: 50%
+		margin-left: calc(-#{$eCard_w} / 2)
+		padding-left: 0
+		padding-right: 0
