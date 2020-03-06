@@ -182,9 +182,7 @@ h6 {
   border-radius: 45px;
   padding: 18px 36px;
   margin-bottom: 30px;
-  background-image: url("../upload/sightseeing_tour_of_Odessa_2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
   -webkit-box-shadow: 7px 7px 21px 0.7px #1b1b1b;
   -moz-box-shadow: 7px 7px 21px 0.7px #1b1b1b;
   box-shadow: 7px 7px 21px 0.7px #1b1b1b; }
@@ -196,6 +194,27 @@ h6 {
     font-size: 41pt;
     font-family: "SourceSansProSemiBold", sans-serif;
     margin-bottom: 16px; }
+  .e-card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    z-index: -1; }
+    .e-card__image::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      border-radius: 45px; }
 
 .e-card__content {
   display: -webkit-box;
